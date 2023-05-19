@@ -9,6 +9,10 @@
 
 #include "esp_err.h"
 #include "esp_log.h"
+#include "esp_system.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/queue.h"
+#include "freertos/task.h"
 #include "sdkconfig.h"
 
 #define DEFAULT_LOGGING_TAG CONFIG_EXAMPLE_LOGGING_TAG

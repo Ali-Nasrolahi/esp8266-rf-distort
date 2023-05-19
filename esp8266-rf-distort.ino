@@ -50,7 +50,7 @@ void setup()
 void loop()
 {
 
-    for (seq = 0; seq < SEQ; seq++) {
+    for (seq = 1; seq <= SEQ; seq++) {
         for (int pulse = 0; pulse < PULSE_CNT; pulse++) {
             bring_up();
             drag_down();
