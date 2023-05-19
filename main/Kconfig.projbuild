@@ -1,0 +1,7 @@
+menu "Example Configuration"
+
+    config EXAMPLE_LOGGING_TAG
+        string "Default logging tag"
+        default "DISTORT"
+
+endmenu

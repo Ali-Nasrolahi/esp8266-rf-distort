@@ -2,7 +2,7 @@
  * @file config.h
  * @author Ali Nasrolahi (a.nasrolahi01@gmail.com)
  * @brief esp8266-rf-distortion.
- * @date 2023-03-31
+ * @date 2023-05-19
  */
 
 /* AS1000F data pin */
